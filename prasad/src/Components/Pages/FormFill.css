@@ -1,0 +1,94 @@
+.form-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form-table {
+    width: 100%;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+.form-table th,
+.form-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.form-table th {
+    background-color: #f2f2f2;
+}
+
+.form-table td {
+    background-color: #fff;
+}
+
+.contact-aadhar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mob {
+    margin-right: 200px; 
+}
+
+.aadhar {
+    margin-right: 200px; 
+}
+
+.sno {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.particulars {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.qty,
+.rate,
+.amnt {
+    padding-left: 10px;
+    padding-right: 10px;
+}

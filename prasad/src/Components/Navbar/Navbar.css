@@ -1,0 +1,66 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(39, 39, 177);
+    color: white;
+    padding: 3px 10px;
+    z-index: 1000;
+    
+}
+
+.navbar ul {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 0);
+}
+
+.admin-login button{
+    font-size: 15px;
+    margin: 10px;
+    background-color: rgb(223, 62, 62);
+    color: white;
+    padding: 12px 35px;
+    border-color: rgb(223, 62, 62);
+    font-weight: bold;
+    border-radius: 15px;       
+}
+
+.admin-login button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.body img {
+    margin: 65px 0px;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.go-to-form {
+    position: fixed;
+    width: 390px;
+    align-items: center;
+    display: flex;
+    padding: 10px 100px;
+    margin: -600px 439px;
+    border-radius: 20px;
+    background-color: rgb(218, 44, 44);
+    border-color: rgb(218, 39, 39);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
