@@ -1,2 +1,2 @@
-Below is the link for the respective project:
+Link for the respective project:
 https://prasad-hub-client.vercel.app/
